@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Taman Batu Alif",
+      "location": "Desa Sepempang, Bunguran Timur",
+      "category": "Pantai & Geopark",
+      "description": "Taman Batu Alif adalah ikon geopark Natuna yang terkenal dengan formasi bebatuan granit raksasa yang usianya mencapai jutaan tahun. Salah satu batu yang menonjol berbentuk seperti huruf 'Alif' dalam aksara Arab.",
+      "imageUrl": "https://www.gotravelly.com/blog/wp-content/uploads/2020/08/taman-batu-alif.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Masjid Agung Natuna",
+      "location": "Ranai, Bunguran Timur",
+      "category": "Wisata Religi & Sejarah",
+      "description": "Sebagai salah satu masjid termegah di Indonesia, Masjid Agung Natuna memiliki arsitektur yang terinspirasi dari Taj Mahal. Kubahnya yang megah dan halamannya yang luas menjadikannya pusat kegiatan keagamaan dan destinasi wisata.",
+      "imageUrl": "https://dinaspariwisata.natunakab.go.id/wp-content/uploads/2022/08/MASJID-AGUNG-NATUNA.jpg"
+    }
+  ],
+  "kuliner": [
+    {
+      "id": "1",
+      "name": "Kernas",
+      "category": "Makanan Utama",
+      "description": "Camilan gurih yang terbuat dari ikan tongkol atau tuna segar yang dicampur dengan sagu, mirip seperti nuget ikan.",
+      "imageUrl": "https://images.unsplash.com/photo-1625944228743-47a3a389de29?q=80&w=1964&auto=format&fit=crop"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Menyelami Surga Bawah Laut Natuna",
+      "author": "Tim Info Natuna",
+      "publish_date": "2025-06-15",
+      "summary": "Natuna bukan hanya tentang pantai, tetapi juga tentang kehidupan bawah lautnya yang kaya. Terumbu karang yang sehat dan biota laut yang beragam menjadikannya destinasi impian para penyelam.",
+      "image": "https://images.unsplash.com/photo-1551202812-6834f8952a23?q=80&w=2070&auto=format&fit=crop"
+    }
+  ],
+  "reviews": []
+}

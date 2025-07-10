@@ -1,0 +1,57 @@
+/* src/assets/main.css */
+
+/* Menggunakan Google Font: Poppins untuk tampilan modern */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Variabel Warna untuk Konsistensi */
+:root {
+  --primary-color: #005A9C; /* Biru laut dalam */
+  --secondary-color: #00A9E0; /* Biru langit cerah */
+  --accent-color: #F7941D; /* Oranye senja */
+  --text-dark: #2c3e50;
+  --text-light: #5a6a7a;
+  --background-light: #f8f9fa;
+  --white-color: #ffffff;
+  --border-color: #e0e7ef;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Reset dan Pengaturan Dasar */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-light);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
